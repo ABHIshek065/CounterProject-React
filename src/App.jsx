@@ -4,14 +4,15 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
- const addValue = ()=>{
+  // addValue = ()=>
+  function addValue (){
 console.log(count);
 if (count < 20 ) {
   setCount(count + 1)
   
 }
   }
- const removeValue = ()=>{
+const removeValue = ()=>{
 console.log(count);
 if (count > 0 ) {
   setCount(count - 1)
